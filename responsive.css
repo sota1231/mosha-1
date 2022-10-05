@@ -214,3 +214,17 @@
         background: rgb(245, 247, 248);
     }
 }
+@media(max-width:670px){
+        .bars-logo-containar{
+        width: 100%;
+        height: 200px;
+        background-color: white;
+        margin-left: -20px;
+        padding-top: 20px;
+        padding-bottom: 80px;
+        position: fixed;
+        top: 80%;
+        left: 12%;
+    }
+}
+    
