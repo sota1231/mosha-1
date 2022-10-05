@@ -1,0 +1,278 @@
+*{
+    box-sizing: border-box;
+    font-family: 游ゴシック;
+    color
+    : #222427;
+}
+body{
+    margin-left:10%;
+    background-color: rgb(245, 247, 248);
+}
+header{
+    margin-right:9%;
+    margin-top: 7%;
+}
+.header-img{
+    width: 100%;
+}
+.header-logo{
+    position: absolute;
+    top: 8%;
+    right: 5%;
+    width: 60px;
+    z-index: 2;
+}
+.humbargar{
+    position: fixed;
+    top: 30px;
+    left: 40px;
+    z-index: 101;
+}
+.humbargar:hover{
+    opacity: 0.7;
+}
+/**00000000000000000000000000000000*/
+.drawer-btn{
+    z-index: 200;
+    position: fixed;
+    top:37px;
+    left: 43px;
+    opacity: 0;
+}
+.drawer-btn:checked ~ .bars-menu{
+    opacity: 1.0;
+    
+}
+/*--------=========================*/
+.bars-menu{
+    display: flex;
+    position: fixed;
+    background-color:white;
+    width: 100%;
+    height: 100%;
+    margin-right:-9%;
+    margin-top: -6%;
+    margin-left: -10%;
+    z-index: 100;
+    opacity: 0;
+    transition: 0.4s;
+}
+
+.bars-menu >ul{
+    margin: 170px 0 0 70px;
+}
+.bars-nav li{
+    font-family: gotham, sans-serif;
+    font-size: 33px;
+    font-weight: bold;
+    
+}
+.bars-nav li a{
+    text-decoration: none;
+    padding: 10px 0;
+}
+.bars-logo-containar{
+    position: absolute;
+    top:480px;
+    left: 60px;
+}
+.bars-menu .center{
+    position: absolute;
+    top: 140px;
+    left: 500px;
+    font-size: 33px;
+    line-height: 1.3636363636;
+    color: #aeaeb4;
+    font-family: gotham,sans-serif;
+    letter-spacing: 1px;
+}
+/*---------------------------------------right*/
+.bars-right{
+    width: 45%;
+    margin-left: 30%;
+    margin-top: 170px;
+    border-top: 1px solid gray;
+}
+.bars-right-layout{
+    display: flex;
+    width: 100%;
+}
+.nav-photo{
+    padding:20px 0  0 0 ;
+    width: 260px;
+}
+.bars-containar{
+    flex: auto;
+}
+.bars-top a{
+    font-size: 30px;
+    text-decoration: none;
+}
+.bars-text{
+    width: 80%;
+}
+.bars-text a{
+    list-style:none;
+    text-decoration:none;
+    font-size: 17px;
+}
+.bars-text li{
+    list-style: none;
+    margin-left: -40px;
+}
+.bars-bottom span{
+    font-weight: bold;
+    letter-spacing: 1.2px;
+    padding-right: 5px;
+}
+
+.bars-bottom li{
+    padding-bottom: 15px;
+}
+
+/*------------=============================*/
+.cachi{
+    display: flex;
+    margin: 0px 0 0 0;
+    border-bottom: 1px solid gray;
+    padding-bottom: 80px;
+}
+.cachi-logo{
+    flex: 0 0 28%;
+    margin: 60px 20px 0 0;
+}
+.main-1-ttl{
+    font-size: 30px;
+}
+.text-container{
+    margin: 20px 0 0 0;  
+}
+.main-text{
+    font-size: 17px;
+}
+.main-text-2{
+    display: none;
+}
+/*-----------------------------pro-1----*/
+.PROJECT-1{
+    display: flex;
+    border-bottom: 1px solid gray;
+}
+.poroject-side{
+    flex: 0 0 28%;
+    margin: 70px 0 0 0;
+    font-weight: bold;
+}
+.project-1-wrappar{
+    flex: auto;
+    margin:35px 0;
+}
+.kokotiyoi-ttl{
+    font-size: 30px;
+    padding: 0 0 10px 0;
+}
+.kokotiyoi-text{
+    font-size: 17px;
+    margin:0 90px 25px 0;
+}
+.kokotiyoi-img{
+    display: flex;
+}
+.kokotiyoi-img img{
+    width: 50%;
+}
+/*--------------------------process*/
+.process-boxs{
+    display: flex;
+}
+.process-box{
+    width: 33%;
+}
+.process-box img{
+    width: 100%;
+}
+.numbur{
+    color: rgb(28, 115, 222);
+    font-weight: bold;
+}
+.text-layout{
+    display: flex;
+}
+.pdca{
+    border: 0.3px solid rgb(28, 115, 222);
+    color: rgb(28, 115, 222);
+    display: inline;
+    font-size: 11px;
+    font-weight: bold;
+    padding: 3px 5px;
+    margin: 16px 5px;
+    vertical-align: middle;
+}
+.process-sub-ttl{
+    margin: -15px 0 0 0;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 17px;
+}
+.process-sub-text{
+    font-size: 16px;
+    margin: 23px 25px 0 0;
+}
+
+/*------------------------------info*/
+.infographics{
+    display: flex;
+    border-bottom: 1px solid gray;
+    margin: 0px 0px;
+}
+.poroject-side{
+    flex: 0 0 28%;
+}
+.info-container > p{
+    font-size: 17px;
+    margin: 65px 30% 54px 0;
+}
+.info-boxs{
+    display: flex;
+    margin: 0px;
+    border-bottom: 1px solid gray;
+    padding: 0 0 86px 0;
+}
+.info-box{
+    width: 33%;   
+}
+.icon p{
+    font-size: 9px;
+}
+.icon{
+    margin:60px auto 60px 80%;
+}
+/*-------------------------------partner*/
+.partner{
+    display: flex;
+    border-bottom: 1px solid gray;
+    padding: 0 0 100px 0;
+}
+.partner-text > p{
+    font-size: 14px;
+    margin-top: 65px;
+}
+.partner-text{
+    flex: 0 0 50%;
+}
+.partner-tag ul{
+    list-style: none;
+    margin-top: 65px;
+}
+.partner-tag li{
+    font-size: 12px;
+    padding-bottom: 10px;
+    letter-spacing: 1px;
+}
+footer p{
+    text-align: center;
+    font-size: 7px;
+    padding:20px;
+    background: white;
+}
+/*=================================----bars*/
