@@ -6,7 +6,7 @@
         border-top: 1px solid gray;
     }
 }
-@media(max-width:720px){
+@media(max-width:800px){
     body{
         margin-left:0%;
     }
